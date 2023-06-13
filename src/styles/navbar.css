@@ -14,3 +14,11 @@ a {
       text-align:center
     }
   }
+
+  .imagengib {
+    height: 60px;
+  }
+  .strong{
+    font-size: 20px;
+    font-weight: 600;
+ }

@@ -32,21 +32,21 @@ const Navbar = () => {
                 <strong>felipepint@gibtraders.com</strong>
               </span>
               <span className="me-3">
-                <i className="fa-solid fa-phone me-1 text-warning"></i>{' '}
+                <i className="fa-solid fa-phone me-1 .text-secondary"></i>{' '}
                 <strong>+1-786-474-2836</strong>
               </span>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-lg-block d-md-block-d-sm-block d-xs-none text-end">
               <span className="me-3">
                 <i className="fa-solid fa-truck text-muted me-1"></i>
-                <a className="text-muted" href="#">
-                  Shipping
+                <a className="text-muted" href="https://globuscargo.com/registrate/">
+                  Registrate
                 </a>
               </span>
               <span className="me-3">
                 <i className="fa-solid fa-file text-muted me-2"></i>
-                <a className="text-muted" href="#">
-                  Policy
+                <a className="text-muted" href="https://globuscargo.com/ingreso-a-casillero/">
+                  Casillero
                 </a>
               </span>
             </div>
@@ -55,8 +55,8 @@ const Navbar = () => {
       </div>
       <nav className="navbar navbar-expand-lg bg-white sticky-top navbar-light p-3 shadow-sm">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            <i className="fa-solid fa-shop me-2"></i> <strong>Gib Traders Corp</strong>
+          <a className="navbar-brand" href="#"> <img className="imagengib" src="https://media.licdn.com/dms/image/D4E0BAQHuobQdZrgk8g/company-logo_200_200/0/1685540090610?e=1694649600&v=beta&t=xC1BxaHDWHH1P0b_7Gmf-GFjmnNzfbPEGTibEOvD9Rw"></img>
+            <i className=""></i> <strong className="strong">Gib Traders Corp</strong>
           </a>
           <button
             className="navbar-toggler"
@@ -75,12 +75,8 @@ const Navbar = () => {
               <span className="border-warning input-group-text bg-warning text-white">
                 <i className="fa-solid fa-magnifying-glass"></i>
               </span>
-              <input
-                type="text"
-                className="form-control border-warning"
-                style={{ color: '#7a7a7a' }}
-              />
-              <button className="btn btn-warning text-white">search</button>
+             
+              
             </div>
           </div>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -92,9 +88,9 @@ const Navbar = () => {
                 <a
                   className="nav-link mx-2 text-uppercase active"
                   aria-current="page"
-                  href="#"
+                  href="https://globuscargo.com/ingreso-a-casillero/"
                 >
-                  hola
+                  Casillero
                 </a>
               </li>
               <li className="nav-item">
@@ -120,8 +116,11 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link mx-2 text-uppercase" href="#">
-                  <i className="fa-solid fa-circle-user me-1"></i> Registrate
+                <a href="https://globuscargo.com/registrate/" target="_blank" rel="noopener noreferrer">
+  Registrate
+</a>
                 </a>
+               
               </li>
             </ul>
           </div>
