@@ -1,4 +1,13 @@
 .carousel-image {
-  width: 800x; /* El ancho deseado */
+  width: 200x; /* El ancho deseado */
   height: 600px; /* La altura deseada */
+}
+
+.card-body {
+  width: 200px;
+  height: 300px;
+}
+img {
+  height: 300px;
+  width: 200px;
 }
